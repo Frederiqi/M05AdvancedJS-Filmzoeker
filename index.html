@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script defer type="text/javascript" src="films.js"></script>
+  <script defer type="text/javascript" src="script.js"></script>
+  <title>Filmzoeker</title>
+</head>
+
+<body>
+  <div class="gridcontainer">
+    <div class="site-header">
+      <h1>Welkom bij de Winc Filmzoeker</h1>
+    </div>
+    <div class="site-main">
+      <nav>
+        <div>
+          <input type="radio" id="new-movies" name="movie-filter" value="new-movies">
+          <label for="new-movies">Nieuwste films (vanaf 2014)</label>
+        </div>
+
+        <div>
+          <input type="radio" id="avengers-movies" name="movie-filter" value="avengers-movies">
+          <label for="avengers-movies">Avengers films</label>
+        </div>
+
+        <div>
+          <input type="radio" id="x-men-movies" name="movie-filter" value="x-men-movies">
+          <label for="x-men-movies">X-men films</label>
+        </div>
+
+        <div>
+          <input type="radio" id="princess-movies" name="movie-filter" value="princess-movies">
+          <label for="princess-movies">Princess films</label>
+        </div>
+
+        <div>
+          <input type="radio" id="batman-movies" name="movie-filter" value="batman-movies">
+          <label for="batman-movies">Batman films</label>
+        </div>
+      </nav>
+      <main>
+        <div id="filmzoekercontainer">
+          <ul>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <div class="site-footer">
+      <p>Filmzoeker bedankt Batman, X-men, Princess en de Avengers!</p>
+    </div>
+  </div>
+</body>
+
+</html>
